@@ -1,14 +1,14 @@
 body{
-    background-color: bisque;
+    background-color:tomato;
 }
 
 #container{
     display: flex;
-    text-align:end;
+    align-items: center;
     justify-content: center;
     font-size: 0;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin: 5px 5px;
         
 
 }
@@ -16,16 +16,14 @@ body{
 .grids{
     background-color: black;
     display:inline-block;
-    width:15px;
-    margin:0 3px 3px;
-    height: 15px;
-    border: 1px solid white;
+    width:20px;
+    margin:0 1px 1px;
+    height: 20px;
+    border: 1px solid blue;
 }
 #wrapper {
-    margin-left: 450px;
-    margin-top: 60px;
     height: 100%;
-    width: 20%;
+    width: 30%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -34,6 +32,36 @@ body{
 
 #newGrid{
     align-self: center;
-    background-color:aqua ;
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: auto;
+    height: auto;;
 
 }  
+
+#title{
+    text-align: center;
+    color:gold;
+    font-size: 50px;
+
+}
+
+#options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; 
+}

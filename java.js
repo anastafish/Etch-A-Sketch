@@ -9,7 +9,8 @@ newGrids.addEventListener('click', () => {
 
 
 function makeGrids(resultion=16) {
-for (let i = 0; i <= resultion * resultion; i++){
+    container.innerHTML = ''
+for (let i = 0; i <= resultion * resultion - 2; i++){
     const gridElement = document.createElement('div')
     gridElement.classList.add('grids')
     gridElement.addEventListener('mouseover', changeColor)
@@ -23,6 +24,7 @@ function changeColor(e){
     if (num <= 3) currentColor = 'red'
     else if (num > 3 && num <= 6) currentColor = 'green'
     else {currentColor = 'blue'}  
+
     e.target.style.backgroundColor = currentColor
     console.log(currentColor)
     
