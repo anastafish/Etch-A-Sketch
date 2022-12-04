@@ -1,0 +1,39 @@
+body{
+    background-color: bisque;
+}
+
+#container{
+    display: flex;
+    text-align:end;
+    justify-content: center;
+    font-size: 0;
+    flex-wrap: wrap;
+    margin-top: 10px;
+        
+
+}
+
+.grids{
+    background-color: black;
+    display:inline-block;
+    width:15px;
+    margin:0 3px 3px;
+    height: 15px;
+    border: 1px solid white;
+}
+#wrapper {
+    margin-left: 450px;
+    margin-top: 60px;
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+
+#newGrid{
+    align-self: center;
+    background-color:aqua ;
+
+}  
